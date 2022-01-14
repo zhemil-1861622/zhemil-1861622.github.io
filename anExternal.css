@@ -1,0 +1,105 @@
+body {
+   back-ground-color: darkslategray;
+   color: RebeccaPurple;
+   font-family: Comic Sans MS;
+}
+
+h1{
+   color:rgba(11, 47, 58, 0.966);
+}
+
+h2{
+   color:rgb(165, 14, 132);
+}
+
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+
+
+.block {
+   border-style: dotted;
+}
+
+
+.fontstyle1 {
+   color:rgb(22, 97, 51);
+   font-family: Gill Sans;
+   font-size: 120%;
+}
+.fontstyle2 {
+   color:rgb(124, 91, 21);;
+   font-family: courier;
+   font-size: 110%;
+}
+.blue {
+   color:blue;
+}
+.green {
+   color:green;
+}
+.red {
+   color: red;
+}
+.white {
+   color:white;
+}
+.thick {
+   font-size:200%;
+}
+
+
+
+.container { 
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: DarkViolet;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
